@@ -32,7 +32,7 @@ public class CrapsMain
 				sum = roll1 + roll2;
 				System.out.println("Your roll: " + roll1 + " + " + roll2 + " =  " + sum);
 				
-			} while (sum != 2 || sum != point);
+			} while (sum != 2 && sum != point);
 			
 			if (sum == 2)
 				System.out.println("You lose!");
@@ -42,4 +42,3 @@ public class CrapsMain
 	}
 
 }
-
